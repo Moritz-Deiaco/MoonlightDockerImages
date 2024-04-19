@@ -1,4 +1,4 @@
-name: build java-base
+name: build java
 
 on:
   # Allows you to run this workflow manually from the Actions tab
