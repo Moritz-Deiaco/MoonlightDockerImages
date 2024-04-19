@@ -7,28 +7,21 @@ on:
     - cron: "0 0 * * 1"
   push:
     paths:
-      - java/**
+      - python/**
 
 env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
 jobs:
   push:
-    name: "java:${{ matrix.tag }}"
+    name: "python:${{ matrix.tag }}"
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         tag:
-          - 8
-          - 11
-          - 16
-          - 17
-          - 18
-          - 19
-          - 20
-          - 21
-          - 22
+          - 3_10
+          #- 3_11
 
     steps:
       - uses: actions/checkout@v4
@@ -48,9 +41,9 @@ jobs:
 
       - uses: docker/build-push-action@v5
         with:
-          context: ./java
-          file: ./java/${{ matrix.tag }}/Dockerfile
+          context: ./python
+          file: ./python/${{ matrix.tag }}/Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/moritz-deiaco/java:${{ matrix.tag }}
+            ghcr.io/moritz-deiaco/python:${{ matrix.tag }}
