@@ -5,6 +5,6 @@ If you want me to create any images, just submit a Issue.
 
 ## Current Images:
 
-| Image                                | Folder              |
-| ------------------------------------ | ------------------- |
-| ghcr.io/moritz-deiaco/java:{version} | [To Folder](/java/) |
+| Image                                | Folder          |
+| ------------------------------------ | --------------- |
+| ghcr.io/moritz-deiaco/java:{version} | [/java](/java/) |
