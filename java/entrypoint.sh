@@ -1,4 +1,6 @@
 #! /bin/bash
+
+# change to the directory of the script
 cd /home/container
 
 # Make internal docker ip address available to processes.
