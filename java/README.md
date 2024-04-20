@@ -2,6 +2,15 @@
 
 ## This image was specifically created for the Moonlight Panel and should only be used for Moonlight Images
 
+## Compatibility:
+
+This Images should support all mayor CPU architectures:
+
+- x86
+- x86_64
+- arm32
+- arm64
+
 Available Versions:
 
 | Version | Image                         |
