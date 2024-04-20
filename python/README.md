@@ -1,5 +1,7 @@
 # Python Image
 
+## This image was specifically created for the Moonlight Panel and should only be used for Moonlight Images
+
 Available Versions:
 
 | Version     | Image                             |
