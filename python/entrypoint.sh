@@ -14,4 +14,4 @@ python --version
 PARSED=$(echo -e ${STARTUP} | sed -e 's/{{/${/g' -e 's/}}/}/g')
 
 # Run the server
-eval ${PARSED}
+exec eval ${PARSED}
