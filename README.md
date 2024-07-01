@@ -9,3 +9,4 @@ If you want me to create any images, just submit a Issue.
 | -------------------------------------- | ------------------- |
 | ghcr.io/moritz-deiaco/java:{version}   | [/java](/java/)     |
 | ghcr.io/moritz-deiaco/python:{version} | [/python](/python/) |
+| ghcr.io/moritz-deiaco/dotnet:{version} | [/dotnet](/dotnet/) |
